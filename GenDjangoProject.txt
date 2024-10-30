@@ -1,0 +1,9 @@
+please initialize Django project rest api with djangorestframework 3.15.2 
+1.create  2 get method for get project by id and list all project , 1 post method for add and 1 post for update
+2.there is 1 model which is project data which consists of project_id,project_name,start_date,end_date, project_manager, cutomer_company
+3.use fake project data
+4. provide project structure completely
+5. guide me since first step to run server
+
+Generate all nessarry in this folder.
+ 
