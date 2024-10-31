@@ -44,12 +44,12 @@ project/
    ```
    pip install -r requirements.txt
    ```
-5. Run migrations:
+5. Creat migrations in app and init.py and Run migrations step as below accordingly:
    ```
    python manage.py makemigrations
    python manage.py migrate
    ```
-6. Populate the database with fake data:
+6. Populate the database with fake data(Run one time):
    ```
    python manage.py populate_db
    ```
@@ -57,7 +57,12 @@ project/
    ```
    python manage.py runserver
    ```
+8. Run the development server:
+   ```
+   http://127.0.0.1:8000/api/projects/
 
+   http://127.0.0.1:8000/api/projects/1/
+   ```
 ## API Endpoints
 
 - GET /api/projects/ - List all projects

@@ -13,7 +13,7 @@ class Command(BaseCommand):
         Project.objects.all().delete()
 
         # Create fake projects
-        for i in range(10):
+        for i in range(100):
             start_date = date.today() - timedelta(days=random.randint(1, 365))
             end_date = start_date + timedelta(days=random.randint(30, 365))
 
