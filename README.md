@@ -44,7 +44,7 @@ project/
    ```
    pip install -r requirements.txt
    ```
-5. Creat migrations in app and init.py and Run migrations step as below accordingly:
+5. Creat migrations folder in app and init.py and Run migrations step as below accordingly:
    ```
    python manage.py makemigrations
    python manage.py migrate
